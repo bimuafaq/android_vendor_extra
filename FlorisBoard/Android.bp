@@ -1,0 +1,5 @@
+android_app_import {
+    name: "FlorisBoard",
+    apk: "FlorisBoard.apk",
+    presigned: true,
+}
