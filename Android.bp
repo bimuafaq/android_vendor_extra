@@ -16,3 +16,12 @@ android_app_import {
         "Snap",
     ],
 }
+
+android_app_import {
+    name: "Gramophone",
+    apk: "Gramophone/Gramophone.apk",
+    presigned: true,
+    overrides: [
+        "Eleven",
+    ],
+}

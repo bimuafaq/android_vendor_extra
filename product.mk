@@ -1,2 +1,3 @@
 PRODUCT_PACKAGES += FlorisBoard
 PRODUCT_PACKAGES += Aperture
+PRODUCT_PACKAGES += Gramophone
