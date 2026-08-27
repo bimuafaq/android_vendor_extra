@@ -1,0 +1,18 @@
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+android_app_import {
+    name: "FlorisBoard",
+    apk: "FlorisBoard/FlorisBoard.apk",
+    presigned: true,
+}
+
+android_app_import {
+    name: "Aperture",
+    apk: "Aperture/Aperture.apk",
+    certificate: "platform",
+    overrides: [
+        "Camera2",
+        "Snap",
+    ],
+}

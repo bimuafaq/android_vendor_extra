@@ -1,1 +1,2 @@
 PRODUCT_PACKAGES += FlorisBoard
+PRODUCT_PACKAGES += Aperture
