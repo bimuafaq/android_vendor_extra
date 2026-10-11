@@ -1,0 +1,11 @@
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+android_app_import {
+    name: "Gramophone",
+    apk: "Gramophone.apk",
+    presigned: true,
+    overrides: [
+        "Eleven",
+    ],
+}

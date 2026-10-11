@@ -4,12 +4,18 @@
 android_app_import {
     name: "Glimpse",
     apk: "Glimpse.apk",
-    presigned: true,
+    certificate: "platform",
+    product_specific: true,
     overrides: [
         "Gallery2",
         "Gallery",
         "Gallery3D",
         "GalleryNew3D",
+    ],
+    required: [
+        "GlimpseFrameworksBaseOverlay",
+        "initial-package-stopped-states-org.lineageos.glimpse",
+        "preinstalled-packages-org.lineageos.glimpse",
     ],
 }
 
